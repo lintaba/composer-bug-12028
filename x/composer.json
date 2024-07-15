@@ -1,12 +1,4 @@
 {
   "name": "x/y",
-  "type": "library",
-  "autoload": {
-    "psr-4": {
-      "": "classes"
-    },
-    "psr-0": {
-      "\\": "classes"
-    }
-  }
+  "type": "library"
 }

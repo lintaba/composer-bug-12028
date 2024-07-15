@@ -1,6 +1,5 @@
 <?php
 
-
 class Content
 {
 	public function display()
