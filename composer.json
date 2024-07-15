@@ -1,0 +1,22 @@
+{
+  "name": "lintaba/cfix",
+  "require": {
+    "php": "^7.4 || ^8.0",
+    "x/y": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "": [
+        "classes/",
+        "vendor/x/y/classes/"
+      ]
+    }
+  },
+  "repositories": [
+    {
+      "type": "path",
+      "url": "x/"
+    }
+  ],
+  "minimum-stability": "dev"
+}
